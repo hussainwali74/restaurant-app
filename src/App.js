@@ -40,7 +40,7 @@ function App() {
             </Nav>
             <Link to='/contact'>
               {/* <button type='button' className='btn btn-success rounded-0 text-capitalize my-3 my-lg-0 ms-lg-4 text-nowrap'>Book a table</button> */}
-              <button type='button' className='btn btn-success rounded-0 text-capitalize my-3 my-lg-0 ms-lg-4 text-nowrap'>Tisch reservieren</button>
+              {/* <button type='button' className='btn btn-success rounded-0 text-capitalize my-3 my-lg-0 ms-lg-4 text-nowrap'>Tisch reservieren</button> */}
             </Link>
           </Navbar.Collapse>
         </Container>
