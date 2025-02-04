@@ -1,11 +1,8 @@
 import React from 'react';
 import './Menu.css';
 import { Card, CardBody, CardText, CardTitle } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import BreakfastImg from '../../utils/images/breakfast-img.jpg';
 import LunchImg from '../../utils/images/lunch-img.jpg';
-import DinnerImg from '../../utils/images/dinner-img.jpg';
 import BurgerImg from '../../utils/images/burger.jpg';
 import Pizzaimg from '../../utils/images/pizza.jpg';
 import DessertImg from '../../utils/images/dessert-img.jpg';
