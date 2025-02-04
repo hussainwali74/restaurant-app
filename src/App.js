@@ -14,46 +14,7 @@ import Footer from './components/Footer/Footer';
 function App() {
   return (
     <div id='app'>
-      <Navbar expand='lg' className='fixed-top bg-body-tertiary shadow'>
-        <Container>
-          <Navbar.Brand>
-            <Link to='/' className='navbar-brand text-success d-flex align-items-center'>
-              <FontAwesomeIcon icon={faUtensils} size='xl' />
-              <span className='ms-3 lh-1 fw-semibold'>
-                Pizzeria La
-                <br></br>
-                Locanda
-              </span>
-            </Link>
-          </Navbar.Brand>
-          <Navbar.Toggle aria-controls='basic-navbar-nav' />
-          <Navbar.Collapse className='text-center' id='basiv-navbar-nav'>
-            <Nav className='me-auto justify-content-center w-100'>
-              {/* <Link to='/' className='nav-link text-uppercase text-success text-center fw-semibold'>Home</Link> */}
-              <Link to='/' className='nav-link text-uppercase text-success text-center fw-semibold'>Startseite</Link>
-              {/* <Link to='/menu' className='nav-link text-uppercase text-success text-center fw-semibold'>Menu</Link> */}
-              <Link to='/menu' className='nav-link text-uppercase text-success text-center fw-semibold'>Speisekarte</Link>
-              {/* <Link to='/about' className='nav-link text-uppercase text-success text-center fw-semibold'>About</Link> */}
-              <Link to='/about' className='nav-link text-uppercase text-success text-center fw-semibold'>Über uns</Link>
-              {/* <Link to='/contact' className='nav-link text-uppercase text-success text-center fw-semibold'>Contact</Link> */}
-              <Link to='/contact' className='nav-link text-uppercase text-success text-center fw-semibold'>Kontakt</Link>
-            </Nav>
-            <Link to='/contact'>
-              {/* <button type='button' className='btn btn-success rounded-0 text-capitalize my-3 my-lg-0 ms-lg-4 text-nowrap'>Book a table</button> */}
-              {/* <button type='button' className='btn btn-success rounded-0 text-capitalize my-3 my-lg-0 ms-lg-4 text-nowrap'>Tisch reservieren</button> */}
-            </Link>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
-
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/menu' element={<Menu />} />
-        <Route path='/about' element={<About />} />
-        <Route path='/contact' element={<Contact />} />
-      </Routes>
-
-      <Footer />
+      Hello work
     </div>
   );
 }
